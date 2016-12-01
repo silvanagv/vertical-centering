@@ -29,4 +29,7 @@ body {
 
 .pure div {
   background-color: white;
+  position: relative;
+  top: 50%;
+  transform: perspective(1px) translateY(-50%);
 }
