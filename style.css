@@ -1,0 +1,32 @@
+body {
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  margin: 0;
+}
+
+.flexy {
+  background-color: rgb(74, 100, 210);
+  width: 50%;
+  float: right;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flexy div {
+  background-color: white;
+}
+
+.pure {
+  background-color: rgb(13, 191, 181);
+  width: 50%;
+  float: left;
+  height: 100%;
+}
+
+.pure div {
+  background-color: white;
+}
